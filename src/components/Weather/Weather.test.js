@@ -5,7 +5,7 @@ import '@testing-library/jest-dom/extend-expect'
 
 
 
-test("Weather render", async () => {
+test("Weather render sunny", async () => {
 
     //AAA
     //Arrange
@@ -14,7 +14,7 @@ test("Weather render", async () => {
 
     //Render: Renderiza el componente y retorna una serie de funciones de utilidad
     // Vamos a analizar su estado en el assert
-    const { findByRole } = render(<Weather temperature={10} />)
+    const { findByRole } = render(<Weather temperature={10} state={"sunny"}/>)
 
     //Assert
     //findAllByRoll nos va a buscar todos los componentes que sean heading
