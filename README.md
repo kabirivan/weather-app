@@ -14,3 +14,7 @@ npm install @material-ui/core
 npx -p @storybook/cli sb init
 
 npm run storybook
+
+npm install typeface-roboto
+
+npm install react-icons
